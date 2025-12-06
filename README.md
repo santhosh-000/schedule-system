@@ -121,6 +121,7 @@ Backend: Manages authentication, schedule assignment, task updates, and monthly 
 Database: Stores users, clients, weekly schedules, and task completion records.
 ```
 ```
+```
 🗂 Folder Structure
 Schedule System/
 │
@@ -137,6 +138,7 @@ Schedule System/
 └── README.md
 ```
 ```
+```
 🌐 Deployment
 | Component | Platform      |
 | --------- | ------------- |
@@ -148,7 +150,9 @@ Schedule System/
 👨‍💻 DEVELOPER
 
 Developed by: Santhosh Kumar S
+
 Role: Full Stack Developer
+
 Project Type: Task & Schedule Management System
 ```
 ```
