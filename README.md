@@ -12,72 +12,95 @@ This system is perfect for design teams in small to medium-sized companies to st
 ```
 🎯 Project Purpose
 
-Traditional task management methods—like Excel sheets, WhatsApp messages, or physical notes—are inefficient and error-prone.
+Traditional task management methods—like Excel sheets, WhatsApp messages, or physical notes—are inefficient and prone to errors.
 
-Schedule System introduces:
+Schedule System introduces a modern, digital approach to streamline task management for design teams:
 
 ✅ Structured weekly schedules per client
+
 ✅ Task completion marking by Users
+
 ✅ Automatic monthly summaries for Admins
+
 ✅ Multi-client handling for each designer
+
 ✅ Digital tracking of posters and reels delivered
 
 ```
 ```
-🧩 SYSTEM ROLES AND STRUCTURE
-🧍‍♂️ User (Designer)
+🧩 System Roles & Structure
 
-User Actions:
+🧑‍🎨 User (Designer)
 
-Login to the system.
-View assigned clients and their weekly schedule.
-Mark tasks as completed per client (poster or reel).
-See schedule and task history per client.
+Actions:
+
+Login to the system
+
+View assigned clients and weekly schedule
+
+Mark tasks as completed per client (Poster/Reel)
+
+View schedule and task history per client
 
 👨‍💼 Admin
 
-Admin Actions:
+Actions:
 
-Login as Admin.
-Add clients and assign weekly schedules (3 posters + 1 reel).
-Track task completion per user and client.
-View monthly summary: how many posters and reels were completed per client.
+Login as Admin
+
+Add clients and assign weekly schedules (3 Posters + 1 Reel per week)
+
+Track task completion per user and client
+
+View monthly summary of posters and reels completed
 ```
 ```
-⚙️ HOW THE SYSTEM WORKS (Step-by-Step Workflow)
+⚙️ How the System Works
+
 🧾 Step 1: Registration/Login
 
-Both Admin and Users log in through the authentication system.
-
-Users: Can see their assigned clients and weekly schedule.
-Admin: Can assign clients, schedule tasks, and view summaries.
-```
-```
-🏢 Step 2: Client & Schedule Management (Admin Panel)
-
-The Admin can:
-
-Add new clients with name and details.
-Assign weekly schedules per client (3 posters + 1 reel per week).
-Update schedules as needed.
-Monitor all users’ task completion.
-```
-```
-📅 Step 3: Task Completion (User Panel)
+Users and Admin log in via the authentication system
 
 Users can:
 
-View all assigned clients.
-For each client, mark tasks as Poster Done or Reel Done for specific dates.
-System automatically stores task completion in the backend database (MongoDB).
-```
-```
-📊 Step 4: Monthly Summary
+-View assigned clients
 
-At the end of each month, Admin can:
+=Check weekly schedules
 
-View how many posters and reels were completed per client.
-See user-wise performance per client.
+Admin can:
+
+-Assign clients to users
+
+-Set weekly schedules
+
+-View task completion summaries
+
+🏢 Step 2: Client & Schedule Management (Admin Panel)
+
+-Add new clients with details
+
+-Assign weekly tasks per client (3 Posters + 1 Reel)
+
+-Update schedules if needed
+
+-Monitor all users’ task completion
+
+✅ Step 3: Task Completion (User Panel)
+
+-View all assigned clients
+
+-Mark tasks as Poster Done or Reel Done for specific dates
+
+-System automatically stores completion in MongoDB
+
+📅 Step 4: Monthly Summary
+
+Admin can view:
+
+-Posters and reels completed per client
+
+-User-wise performance per client
+
 | Client  | Posters Completed | Reels Completed | Assigned Tasks       |
 | ------- | ----------------- | --------------- | -------------------- |
 | Client1 | 12                | 4               | 12 posters + 4 reels |
@@ -134,8 +157,11 @@ Project Type: Task & Schedule Management System
 The Schedule System simplifies workflow management for design teams by:
 
 ✅ Assigning weekly tasks per client.
+
 ✅ Allowing designers to mark completion.
+
 ✅ Generating monthly summaries.
+
 ✅ Supporting multi-client handling per designer.
 
 This system ensures organization, efficiency, and accurate tracking of all design tasks within a company.
